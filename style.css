@@ -7,7 +7,7 @@ body            {margin:0;
 
 .header         {height:575px;
                 width:100%;
-                margin:0px;
+                margin-top:28px;
                 background-color:Black;
                 background-image:url(http://i.imgur.com/iabDcv5.jpg);
                 background-repeat:no-repeat;
@@ -16,20 +16,39 @@ body            {margin:0;
 #header-text    {background-color:rgba(122, 31, 31, 0.9);
                 border-radius:5px;
                 width:300px;
-                height:100px;
+                height:96px;
                 line-height:0.5em;
                 position:relative;
-                left:25px;}
-
-headertext.fixed-logo {
-                background-color:rgba(122, 31, 31, 0.9);
-                border-radius:5px;
-                width:300px;
-                height:100px;
-                line-height:0.5em;
-                position:fixed;
                 left:25px;
-                float:left;
+                padding-top:4px;}
+
+#header-text.fixed-logo {
+                position:fixed;
+                top:0;
+                right:10px;
+                width:200px;
+                height:52px;
+                z-index:1;
+                background-color:rgba(0, 0, 0, 0);
+}
+
+#header-text.fixed-logo h1 {
+                font-family:"Mrs Saint Delafield",serif;
+                font-size:26px;
+                font-weight:300;
+                color:#FAFAD2;                                          
+                margin-left:5px;
+}
+
+#header-text.fixed-logo h2 {
+                font-family:"PT Sans", sans-serif;
+                font-size:10px;
+                font-weight:600;
+                color:#7a1f1f; 
+                text-align:left;
+                margin-right:10px;
+                bottom:5px;
+                z-index:1;
 }
 
 h1             {font-family:"Mrs Saint Delafield",serif;
@@ -37,8 +56,7 @@ h1             {font-family:"Mrs Saint Delafield",serif;
                 font-weight:200;
                 text-shadow:3px 3px black;
                 color:#FAFAD2;                                          
-                margin-left:5px;
-                padding-top:32px;}
+                margin-left:5px;}
     
 h2              {font-family:"PT Sans", sans-serif;
                 font-size:16px;
@@ -58,10 +76,11 @@ h2              {font-family:"PT Sans", sans-serif;
                 
 .navigation      {background-color:Black;}
 
+
 .navigation.fixed-nav {
-                    position: fixed;
-                    top: 0;
-                    width: 100%;
+                position: fixed;
+                top: 0;
+                width: 100%;
 }
 
 
