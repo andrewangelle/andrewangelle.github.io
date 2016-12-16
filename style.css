@@ -38,16 +38,18 @@ body            {margin:0;
                 font-weight:300;
                 color:#FAFAD2;                                          
                 margin-left:5px;
+                padding-left:10px;
 }
 
 #header-text.fixed-logo h2 {
                 font-family:"PT Sans", sans-serif;
                 font-size:10px;
-                font-weight:600;
+                font-weight:800;
                 color:#7a1f1f; 
                 text-align:left;
                 margin-right:10px;
                 bottom:5px;
+                padding-right:5px;
                 z-index:1;
 }
 
