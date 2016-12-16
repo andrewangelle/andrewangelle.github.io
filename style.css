@@ -21,6 +21,17 @@ body            {margin:0;
                 position:relative;
                 left:25px;}
 
+headertext.fixed-logo {
+                background-color:rgba(122, 31, 31, 0.9);
+                border-radius:5px;
+                width:300px;
+                height:100px;
+                line-height:0.5em;
+                position:fixed;
+                left:25px;
+                float:left;
+}
+
 h1             {font-family:"Mrs Saint Delafield",serif;
                 font-size:42px;
                 font-weight:200;
@@ -48,9 +59,9 @@ h2              {font-family:"PT Sans", sans-serif;
 .navigation      {background-color:Black;}
 
 .navigation.fixed-nav {
-                position: fixed;
-                top: 0;
-                width: 100%;
+                    position: fixed;
+                    top: 0;
+                    width: 100%;
 }
 
 
