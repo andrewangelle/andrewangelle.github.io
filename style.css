@@ -41,11 +41,11 @@ body            {margin:0;
                 padding-left:10px;
 }
 
-#header-text.fixed-logo h2 {
+*#header-text.fixed-logo h2 {
                 font-family:"PT Sans", sans-serif;
                 font-size:10px;
                 font-weight:800;
-                color:#7a1f1f; 
+                color:Black; 
                 text-align:left;
                 margin-right:10px;
                 bottom:5px;
