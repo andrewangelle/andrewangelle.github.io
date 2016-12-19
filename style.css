@@ -162,11 +162,22 @@ table   	    {width:100%;}
 @media screen and (max-width: 800px){
 #header-text    {background-color:rgba(122, 31, 31, 0.9);
                 border-radius:5px;
-                width:300px;
-                height:100px;
+                width:60%;
+                height:12%;
                 line-height:0.5em;
+                position:relative;
+                top:0;
+                left:0;
                 margin-left:auto;
                 margin-right:auto;}
+
+h1 {
+    font-size: 35px;
+}
+
+h2{
+    font-size:12px;
+}
 
 .navigation li  {font-family: "PT Sans", sans-serif;
                 font-weight:500;
@@ -193,11 +204,13 @@ table   	    {width:100%;}
 		        overflow:auto;}}
 
 .youtube-embed	{margin-left:auto;
-		        margin-right:auto;}
+		        margin-right:auto;
+                height:auto
+                width:auto;}
 
 .navigation.fixed-nav {
                 position: fixed;
-                top:30px;
+                top:38px;
                 right:0;
                 width:100%;
                 z-index:1;
