@@ -157,13 +157,13 @@ table   	    {width:100%;}
 
 
 
-/*For Browser Resize*/
+/*For Browser Resize (>= 800px)*/
 
 @media screen and (max-width: 800px){
 #header-text    {background-color:rgba(122, 31, 31, 0.9);
                 border-radius:5px;
-                width:60%;
-                height:12%;
+                width:65%;
+                height:15%;
                 line-height:0.5em;
                 position:relative;
                 top:0;
@@ -172,11 +172,17 @@ table   	    {width:100%;}
                 margin-right:auto;}
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 h2{
     font-size:12px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .navigation li  {font-family: "PT Sans", sans-serif;
