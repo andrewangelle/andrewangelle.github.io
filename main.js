@@ -70,4 +70,15 @@ window.addEventListener('scroll', function(e){
 		headerText.classList.remove('fixed-logo');
 	}
 });
+
+
+function getBrowserWidth(){
+	var x = '800';
+	var browserWidth = window.innerwidth;
+	var headerText = document.getElementbyId('header-text');
+
+	if(x > browserWidth){
+		headerText.classList.remove('fixed-logo')
+	}
+};
 */
