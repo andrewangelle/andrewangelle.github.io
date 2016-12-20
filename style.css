@@ -157,7 +157,7 @@ table   	    {width:100%;}
 
 /*For Browser Resize (>= 800px)*/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1170px){
 #header-text    {background-color:rgba(122, 31, 31, 0.9);
                 border-radius:10px;
                 width:210px;
@@ -197,11 +197,17 @@ h2{
 
 .content	    {height:80%;
                 width:80%;
-                margin:auto;}
+                margin-top:auto;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom:auto;
+}
 		        
 .content p	    {font-family:"PT Sans", sans-serif;
                 font-size:16px;
                 font-weight:500;
+                margin-top:auto;
+                margin-bottom:auto;
 		        margin-left:auto;
 		        margin-right:auto;
 		        height:80%;
@@ -213,7 +219,7 @@ h2{
                 width:300px;}
 
 .navigation.fixed-nav {
-                position: fixed;
+                position:fixed;
                 top:38px;
                 right:0;
                 width:100%;
@@ -253,6 +259,12 @@ h2{
                 z-index:1;
 }
 
+.subheader {margin-top:100px;
+            margin-right:auto;
+            margin-left:auto;
+            margin-bottom:45px;
+
+}
 
 
 
