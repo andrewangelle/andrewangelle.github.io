@@ -2,8 +2,7 @@ html            {border:5px solid Black;
                 background-color:Black;
                 margin:0;}
 
-body            {margin:auto;
-                border:20px solid black;}
+body            {margin:0}
 
 .header         {height:575px;
                 width:100%;
@@ -171,7 +170,7 @@ table   	    {width:100%;}
                 margin-right:auto;}
 
 h1 {
-    font-size: 30px;
+    font-size:30px;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
