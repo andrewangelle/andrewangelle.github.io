@@ -126,7 +126,7 @@ a:active        {text-decoration:none;
                 margin-left:auto;
                 margin-right:auto;
 		        padding:25px 25px 150px 25px;
-                overflow:auto;}
+                overflow:hidden;}
 		      
 .content p, table   {font-family:"PT Sans", sans-serif;
                     font-size:16px;
@@ -214,6 +214,14 @@ h2{
                 width:85%;
 		        overflow:auto;}
 
+#subheader-teach   {
+                margin-top:90px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom:45px;
+
+}
+
 .youtube-embed	{margin:auto;
                 height:300px;
                 width:300px;}
@@ -259,54 +267,9 @@ h2{
                 z-index:1;
 }
 
-.subheader {margin-top:100px;
+.subheader {
+            margin-top:100px;
             margin-right:auto;
             margin-left:auto;
             margin-bottom:45px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-/*          --Colors--
-background: linear-gradient(-90deg, #7a1f1f, #808080);
-rgba(128, 128, 128, 1)-gray;
-rgba(122, 31, 31, 1)--#7a1f1f;--dark red;
-*/
-
-
-
-
-
-/*          --Old Code--
-.subnavigation ul {background-color:black;
-                  width:100%;
-                  text-align:center;
-                  margin:0;}
-                
-
-.subnavigation li   {font-family:"Allura";
-                    font-size:28px;
-                    font-weight:600;
-                    display:inline-block;
-                    color:#FAFAD2;
-                    background-color:rgba(122, 31, 31, 0.5);
-                    text-align:center;
-                    border-right:1px solid rgba(122, 31, 31, 1);
-                    border-left:1px solid rgba(122, 31, 31, 1);
-                    padding:0 25px 0 25px;}
-
-a:home          {text-decoration:none;
-                font-family:"Allura";
-                font-size:28px;
-                font-weight:600;
-                color:#7a1f1f;}
-*/
