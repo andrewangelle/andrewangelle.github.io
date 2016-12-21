@@ -130,7 +130,7 @@ a:active        {text-decoration:none;
 		      
 .content p, table   {font-family:"PT Sans", sans-serif;
                     font-size:16px;
-                    font-weight:500;
+                    font-weight:700;
                     margin-top:auto;
                     margin-bottom:auto;
 		       	    margin-left:auto;
@@ -204,8 +204,8 @@ h2{
 }
 		        
 .content p	    {font-family:"PT Sans", sans-serif;
-                font-size:16px;
-                font-weight:500;
+                font-size:14px;
+                font-weight:600;
                 margin-top:auto;
                 margin-bottom:auto;
 		        margin-left:auto;
@@ -272,4 +272,8 @@ h2{
             margin-right:auto;
             margin-left:auto;
             margin-bottom:45px;
+}
+
+p {
+
 }
