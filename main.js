@@ -1,3 +1,51 @@
+
+window.addEventListener('scroll', function(e){
+	var scrollTop = window.pageYOffset;
+	var imageHeight = document.getElementById('header').clientHeight;
+	var navigation = document.getElementById('navigation');
+	var headerText = document.getElementById('header-text');
+
+
+	if(scrollTop > imageHeight){
+		navigation.classList.add('fixed-nav');
+		headerText.classList.add('fixed-logo');
+	}
+	else{
+		navigation.classList.remove('fixed-nav');
+		headerText.classList.remove('fixed-logo');
+	}
+});
+
+document.getElementById('nav-icon').addEventListener('click',function(){
+	var navLinks = document.getElementById('nav-links');
+
+	navLinks.style.visibility = ('visible');
+	navLinks.style.display = ('block');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 //Make header's background image into a slideshow
 var imageIndex=0
@@ -25,60 +73,4 @@ function slideHeaderImages() {
 		headerElement.style.backgroundImage = 'http://i.imgur.com/iabDcv5.jpg';
 	}
 ;}
-*/
-window.addEventListener('scroll', function(e){
-	var scrollTop = window.pageYOffset;
-	var imageHeight = document.getElementById('header').clientHeight;
-	var navigation = document.getElementById('navigation');
-	var headerText = document.getElementById('header-text');
-
-
-	if(scrollTop > imageHeight){
-		navigation.classList.add('fixed-nav');
-		headerText.classList.add('fixed-logo');
-	}
-	else{
-		navigation.classList.remove('fixed-nav');
-		headerText.classList.remove('fixed-logo');
-	}
-});
-
-
-/*
-//If user has scrolled past header and brower width is greater than 800px: Fix navigation & logo to top
-//else if user has scrolled past header and browser width is 800px or less: Fix only navigation
-//else remove both fixed nav and fixed logo
-window.addEventListener('scroll', function(e){
-	var scrollTop = window.pageYOffset;
-	var imageHeight = document.getElementById('header').clientHeight;
-	var navigation = document.getElementById('navigation');
-	var headerText = document.getElementById('header-text');
-	var browserWidth = window.innerWidth;
-	var threshold = '800';
-
-	if(scrollTop > imageHeight && browserWidth >= threshold){
-		navigation.classList.add('fixed-nav');
-		headerText.classList.add('fixed-logo');
-	}
-
-	else if(scrollTop > imageHeight && browserWidth <= threshold){
-		navigation.classList.add('fixed-nav')
-	}
-
-	else{
-		navigation.classList.remove('fixed-nav');
-		headerText.classList.remove('fixed-logo');
-	}
-});
-
-
-function getBrowserWidth(){
-	var x = '800';
-	var browserWidth = window.innerwidth;
-	var headerText = document.getElementbyId('header-text');
-
-	if(x > browserWidth){
-		headerText.classList.remove('fixed-logo')
-	}
-};
 */

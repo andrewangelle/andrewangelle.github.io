@@ -38,6 +38,7 @@ body            {margin:0}
                 color:#FAFAD2;                                          
                 margin-left:5px;
                 padding-left:10px;
+                z-index:1;
 }
 
 #header-text.fixed-logo h2 {
@@ -49,7 +50,6 @@ body            {margin:0}
                 margin-right:10px;
                 bottom:5px;
                 padding-right:5px;
-                z-index:1;
 }
 
 h1             {font-family:"Mrs Saint Delafield",serif;
@@ -76,16 +76,13 @@ h2              {font-family:"PT Sans", sans-serif;
                 margin-right:auto;
 }
 
-            
+#nav-icon {
+    display:none;
+}
                 
 .navigation      {background-color:Black;}
 
 
-.navigation.fixed-nav {
-                position: fixed;
-                top: 0;
-                width: 100%;
-}
 
 
 .navigation ul  {width:100%;
@@ -104,9 +101,9 @@ h2              {font-family:"PT Sans", sans-serif;
                 border-left:1px solid #7a1f1f;
                 padding:0px 50px 0px 50px;
 		        margin-left:auto;
-		        margin-right:auto;}
+		        margin-right:auto;
+}
 
-                    
 a:link         {text-decoration:none;
                color:#FAFAD2;}
 a:visited       {text-decoration:none;
@@ -115,6 +112,15 @@ a:hover         {text-decoration:none;
                 color:#FAFAD2;}
 a:active        {text-decoration:none;
                 color:#FAFAD2;}
+
+
+.navigation.fixed-nav {
+                position: fixed;
+                top: 0;
+                width: 100%;
+}
+
+                
 
 
 .content        {border:5px solid black;
@@ -155,11 +161,28 @@ table   	    {width:100%;}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*For Browser Resize (>= 800px)*/
 
 @media screen and (max-width: 1170px){
 #header-text    {background-color:rgba(122, 31, 31, 0.9);
-                border-radius:10px;
+                border-radius:0;
                 width:210px;
                 height:60px;
                 line-height:0.5em;
@@ -183,17 +206,36 @@ h2{
     margin-right:auto;
 }
 
-.navigation li  {font-family: "PT Sans", sans-serif;
+#nav-icon {
+    margin:auto;
+}
+
+#nav-links {
+    visibility:hidden;
+    display:none;
+}
+
+
+
+.navigation li,
+#nav-icon  {
+    font-family: "PT Sans", sans-serif;
                 font-weight:500;
                 color:rgba(220, 156, 65, 1);
                 background-color:rgba(122, 31, 31, 0.1);
                 text-align:center;
-                display:inline-block;
+                display:block;
                 border-right:1px solid #7a1f1f;
-                border-left:1px solid #7a1f1f;;
-                padding:0 10px 0 10px;
-		        margin-left:auto;
-		        margin-right:auto;}
+                border-left:1px solid #7a1f1f;
+		        margin:auto;
+            }
+
+.navigation.fixed-nav {
+                position: fixed;
+                top: 42px;
+                width: 100%;
+}
+
 
 .content	    {height:80%;
                 width:80%;
@@ -226,13 +268,7 @@ h2{
                 height:300px;
                 width:300px;}
 
-.navigation.fixed-nav {
-                position:fixed;
-                top:38px;
-                right:0;
-                width:100%;
-                z-index:1;
-}
+
 
 
 #header-text.fixed-logo {
@@ -241,7 +277,7 @@ h2{
                 left:0;
                 width:100%;
                 height:40px;
-                z-index:0;
+                z-index:1;
                 background-color:rgba(0, 0, 0, 1);
 }
 
@@ -253,18 +289,10 @@ h2{
                 margin-left:5px;
                 padding-left:10px;
                 text-align:left;
-}
+            }
 
 #header-text.fixed-logo h2 {
-                font-family:"PT Sans", sans-serif;
-                font-size:21x;
-                font-weight:100;
-                color:Black; 
-                text-align:left;
-                margin-right:10px;
-                bottom:5px;
-                padding-right:5px;
-                z-index:1;
+                display:none;
 }
 
 .subheader {
@@ -277,3 +305,24 @@ h2{
 p {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*screens less than 680px*/
+/*@media screen and (max-width:680px) {
