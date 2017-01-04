@@ -19,8 +19,7 @@ window.addEventListener('scroll', function(e){
 document.getElementById('nav-icon').addEventListener('click',function(){
 	var navLinks = document.getElementById('nav-links');
 
-	navLinks.style.visibility = ('visible');
-	navLinks.style.display = ('block');
+	navLinks.classList.toggle('nav-open');
 });
 
 

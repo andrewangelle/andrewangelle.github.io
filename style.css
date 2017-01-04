@@ -211,8 +211,11 @@ h2{
 }
 
 #nav-links {
-    visibility:hidden;
     display:none;
+}
+
+#nav-links.nav-open {
+    display:block;
 }
 
 
