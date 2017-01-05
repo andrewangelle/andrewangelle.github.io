@@ -208,10 +208,11 @@ h2{
 
 #nav-icon {
     margin:auto;
+    font-size:16px;
 }
 
 #nav-links {
-    display:none;
+    display:none;  
 }
 
 #nav-links.nav-open {
@@ -230,13 +231,14 @@ h2{
                 display:block;
                 border-right:1px solid #7a1f1f;
                 border-left:1px solid #7a1f1f;
-		        margin:auto;
+                margin:auto;
             }
 
 .navigation.fixed-nav {
                 position: fixed;
                 top: 42px;
                 width: 100%;
+                transition:2s;
 }
 
 
