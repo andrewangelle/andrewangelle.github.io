@@ -7,10 +7,7 @@ body            {margin:0}
 .header         {height:575px;
                 width:100%;
                 margin-top:28px;
-                background-color:Black;
-                background-image:url(http://i.imgur.com/iabDcv5.jpg);
-                background-repeat:no-repeat;
-                background-position:center center;}
+                background-color:Black;}
 
 #header-text    {background-color:rgba(122, 31, 31, 0.9);
                 border-radius:5px;
@@ -19,7 +16,8 @@ body            {margin:0}
                 line-height:0.5em;
                 position:relative;
                 left:25px;
-                padding-top:4px;}
+                padding-top:4px;
+                z-index:1;}
 
 #header-text.fixed-logo {
                 position:fixed;
