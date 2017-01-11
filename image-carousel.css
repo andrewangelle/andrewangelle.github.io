@@ -17,18 +17,19 @@
 .images {
 	margin:0;
 	padding:0;
+
 }
 
 .images li {
 	margin:0;
 	padding:0;
-	width:100%;
+	width:75%;
 	list-style:none;
 	text-align: center;
 }
 
 .active {
-	height: 700px;
+	height:700px;
 }
 
 .active li {
@@ -39,6 +40,7 @@
 .active li.current {
 	top: 30px;
 	transition: 0.75s;
+	width:100%;
 	transition-timing-function:ease;
 }
 
@@ -74,10 +76,35 @@
 	left: -2000px;
 }
 
+.image-resize {
+	width:90%;
+	height:auto;
+}
 
 
 
+/*For Browser Resize (>= 800px)*/
 
+@media screen and (max-width: 1170px){
+.active {
+	height:500px;
+}
+.image-resize {
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+}
+
+@media screen and (max-width: 600px){
+.active {
+	height:288px;
+}
+.images {
+	position:relative;
+	top:0;
+
+}
   	/*  cursor: pointer;
   position: absolute;
   top: 50%;
