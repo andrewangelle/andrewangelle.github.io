@@ -87,7 +87,7 @@
 
 @media screen and (max-width: 1170px){
 .active {
-	height:500px;
+	height:600px;
 }
 .image-resize {
 	width:100%;
@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 600px){
 .active {
-	height:288px;
+	height:400px;
 }
 .images {
 	position:relative;
