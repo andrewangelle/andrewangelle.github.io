@@ -6,6 +6,7 @@
 	font-family: helvetica,sans-serif;
 	font-size: 14px;
 	width: 100%;
+	height:700px;
 	position: relative;
 	margin: 1em;
 	background-color:Black;
@@ -28,23 +29,19 @@
 	text-align: center;
 }
 
-.active {
-	height:700px;
-}
-
-.active li {
+.header li {
 	position: absolute;
 	top: 1000px;
 }
 
-.active li.current {
+.header li.current {
 	top: 30px;
 	transition: 0.75s;
 	width:100%;
 	transition-timing-function:ease;
 }
 
-.active .buttons {
+.header .buttons {
 	padding: 5px 0;
 	background:rgba(122, 31, 31, 0.9);
 	text-align: center;
