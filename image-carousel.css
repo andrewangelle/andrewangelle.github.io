@@ -41,7 +41,7 @@
 	transition-timing-function:ease;
 }
 
-.header .buttons {
+.header .carousel-buttons {
 	padding: 5px 0;
 	background:rgba(122, 31, 31, 0.9);
 	text-align: center;
@@ -63,6 +63,10 @@
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0
+}
+
+#next {
+	left:0;
 }
 
 #prev {

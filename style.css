@@ -25,7 +25,7 @@ body            {margin:0}
                 right:10px;
                 width:200px;
                 height:52px;
-                z-index:1;
+                z-index:10;
                 background-color:rgba(0, 0, 0, 0);
 }
 
@@ -36,7 +36,7 @@ body            {margin:0}
                 color:#FAFAD2;                                          
                 margin-left:5px;
                 padding-left:10px;
-                z-index:1;
+                z-index:10;
 }
 
 #header-text.fixed-logo h2 {
@@ -116,6 +116,7 @@ a:active        {text-decoration:none;
                 position: fixed;
                 top: 0;
                 width: 100%;
+                z-index:9;
 }
 
                 

@@ -5,6 +5,9 @@
    <title>Andrew Angelle Music</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+   <link href="css/structure.css" rel="stylesheet">
+   <link href="css/form.css" rel="stylesheet">
+
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="stylesheet" type="text/css" href="image-carousel.css">
    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans">
@@ -19,8 +22,8 @@
          <h1>Andrew Angelle</h1>
          <h2 id='header-sub'>Guitarist.Performer.Teacher</h2>
      </div>
-<button class="buttons" id="next">&#10094;</button>
-<button class="buttons" id="prev">&#10095;</button>
+<button class="carousel-buttons" id="next">&#10094;</button>
+<button class="carousel-buttons" id="prev">&#10095;</button>
     <ol class="images" id="images">
       <li><img src='images/seated-playing.jpg' class="image-resize" /></li>
       <li><img src='images/seated-posed.jpg' class="image-resize"/></li>
@@ -125,24 +128,89 @@
 <a name="contact"></a>
    <div class="content contact">
        <h3 class="subheader">Contact</h3>
-       <div name="contact-form">
+<form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+      action="https://andrewangelle.wufoo.com/forms/z1uiu1t20ojuch9/#public">
+  
+<header id="header" class="info">
+<h2>Contact</h2>
+<div>For questions or more info send me an email. </div>
+</header><ul>
+<li id="foli1" class="notranslate form input name     ">
+<label class="desc" id="title1" for="Field1">
+Name
+<span id="req_1" class="req">*</span>
+</label>
+<span>
+<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1"       required />
+<label for="Field1">First</label>
+</span>
+<span>
+<input id="Field2" name="Field2" type="text" class="field text ln" value="" size="14" tabindex="2" required />
+<label for="Field2">Last</label>
+</span>
+</li>
+<li id="foli3" class="notranslate form input email      ">
+<label class="desc" id="title3" for="Field3">
+Email
+<span id="req_3" class="req">*</span>
+</label>
+<div>
+<input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3"       required />
+</div>
+</li>
+<li id="foli4"
+class="notranslate form input message     "><label class="desc" id="title4" for="Field4">
+Message
+<span id="req_4" class="req">*</span>
+</label>
 
-       </div>
-       <form class="contactform" action="mailto:andrewangelle@gmail.com" method="post" enctype="text/plain">
-         Name:<br>   
-         <input type="text" name="name"><br>
-         Email:<br>
-         <input type="text" name="mail"><br>
-         Comment:<br>
-         <input type="text" name="comment" size="50"><br><br>
-         <input type="submit" value="Send">
-       </form>
+<div>
+<textarea id="Field4"
+name="Field4"
+class="field textarea medium"
+spellcheck="true"
+rows="10" cols="50"
+
+tabindex="4"
+onkeyup=""
+      required  ></textarea>
+
+</div>
+</li> <li class="buttons ">
+<div>
+
+                    <input id="saveForm" name="saveForm" class="btTxt submit"
+    type="submit" value="Submit"
+ /><a href="https://master.wufoo.com/forms/m7p0x3/def/field1=andrewangelle.wufoo.com/forms/contact/" 
+ target="_blank"
+ style="font-size:85% !important;visibility:visible !important;display:inline !important;
+background:none !important;border:none !important;color:blue !important;
+text-indent:0 !important;text-decoration:underline !important;position:static !important;
+margin:0 !important;padding:0 !important;overflow:none !important
+width:auto !important;height:auto !important;">Report Abuse</a>
+</div>
+</li>
+
+<li class="hide">
+<label for="comment">Do Not Fill This Out</label>
+<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+<input type="hidden" id="idstamp" name="idstamp" value="u2QIuqAGqL9XmjSEzydVmQ/mvdH2YvkB2JGEB+4FZDA=" />
+</li>
+</ul>
+</form>
+
+
    </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <script src='main.js'></script>
-
+<script src="scripts/wufoo.js"></script>
 
  </body>
 </html>
+
+
+
+
+

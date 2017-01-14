@@ -1,0 +1,67 @@
+TO DO:
+
+Contact Form.
+	fix 
+		-buttons for image carousel
+		-Poisitiong of form elements
+		-Text style for the form.
+		-z-index problem between the nav bar and the form content when scrolling out of view
+	
+Create Home screen
+	wrap header & nav in a div.
+
+	Using percentages, rewrite the css placing the header and nav containers inside the new dive.
+			-First for the view with hidden nav
+			-second for view with open nav
+
+	add 'home' link to nav. & the anchor to the top of the home div.
+
+
+
+Repositioning Home Page:
+	using pageYoffset. / clientHeight from fixNavAfterUserScroll
+	append the toggleNavOnClick function w/	
+		-negative margin top on nav(ul)
+
+
+Clean up site-index folder
+	-divide style.css into multiple style sheets.
+	-put them all in a css folder
+	-link them in html head
+	-relabel the css and js files for the contact form
+		-change the links in the html head.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
