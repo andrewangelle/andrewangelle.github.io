@@ -6,7 +6,7 @@
 	font-family: helvetica,sans-serif;
 	font-size: 14px;
 	width: 100%;
-	height:700px;
+	height:500px;
 	position: relative;
 	margin: 1em;
 	background-color:Black;
@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 1170px){
 .active {
-	height:600px;
+	height:400px;
 }
 .image-resize {
 	width:100%;
@@ -98,8 +98,8 @@
 }
 
 @media screen and (max-width: 600px){
-.active {
-	height:400px;
+.header {
+	height:450px;
 }
 .images {
 	position:relative;
