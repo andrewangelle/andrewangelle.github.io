@@ -87,7 +87,7 @@
 /*For Browser Resize (>= 800px)*/
 
 @media screen and (max-width: 1170px){
-.active {
+.header {
 	height:400px;
 }
 .image-resize {
