@@ -1,0 +1,168 @@
+.header         {height:575px;
+                width:100%;
+                margin-top:28px;
+                background-color:Black;}
+
+
+
+#header-text    {background-color:rgba(122, 31, 31, 0.9);
+                border-radius:5px;
+                width:300px;
+                height:96px;
+                line-height:0.5em;
+                position:relative;
+                left:25px;
+                padding-top:4px;
+                z-index:1;}
+
+
+
+#header-text.fixed-logo {
+
+                position:fixed;
+                top:0;
+                right:10px;
+                width:200px;
+                height:52px;
+                z-index:10;
+                background-color:rgba(0, 0, 0, 0);
+}
+
+
+
+#header-text.fixed-logo h1 {
+
+                font-family:"Mrs Saint Delafield",serif;
+                font-size:26px;
+                font-weight:300;
+                color:#FAFAD2;
+		margin-left:5px;
+                padding-left:10px;
+                z-index:10;
+}
+
+
+
+#header-text.fixed-logo h2 {
+
+                font-family:"PT Sans", sans-serif;
+                font-size:10px;
+                font-weight:800;
+                color:Black;
+                text-align:left;
+                margin-right:10px;
+                bottom:5px;
+                padding-right:5px;
+}
+
+
+
+h1             {font-family:"Mrs Saint Delafield",serif;
+                font-size:42px;
+                font-weight:200;
+                text-shadow:3px 3px black;
+                color:#FAFAD2;
+                margin-left:5px;}
+
+
+
+h2              {font-family:"PT Sans", sans-serif;
+                font-size:16px;
+                font-weight:400;
+                color:#FAFAD2;
+                text-align:right;
+                margin-right:10px;}
+
+
+
+.subheader      {font-family:"Allura";
+                font-size:40px;
+                font-weight:600;
+                color:#7a1f1f;
+                padding:0;
+		        text-align:center;
+                margin-left:auto;
+                margin-right:auto;
+}
+
+
+
+
+
+
+/*For Browser Resize (>= 800px)*/
+
+
+@media screen and (max-width: 1170px){
+
+#header-text    {background-color:rgba(122, 31, 31, 0.9);
+                border-radius:0;
+                width:210px;
+                height:60px;
+                line-height:0.5em;
+                position:relative;
+                top:8px;
+                left:0;
+                margin-left:auto;
+                margin-right:auto;}
+
+
+
+h1 {
+	    	font-size:30px;
+    		text-align:center;
+    		margin-left:auto;
+    		margin-right:auto;
+}
+
+
+
+h2{
+    		font-size:12px;
+    		text-align:center;
+    		margin-left:auto;
+       		margin-right:auto;
+}
+
+#header-text.fixed-logo {
+
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:40px;
+                z-index:1;
+                background-color:rgba(0, 0, 0, 1);
+}
+
+
+
+#header-text.fixed-logo h1 {
+
+                font-family:"Mrs Saint Delafield",serif;
+                font-size:26px;
+                font-weight:300;
+                color:#FAFAD2; 
+                margin-left:5px;
+                padding-left:10px;
+                text-align:left;
+
+            }
+
+
+
+#header-text.fixed-logo h2 {
+
+                display:none;
+}
+
+
+
+.subheader {
+
+            margin-top:100px;
+            margin-right:auto;
+            margin-left:auto;
+            margin-bottom:45px;
+}
+}

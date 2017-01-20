@@ -1,0 +1,109 @@
+.content        {border:5px solid black;
+                background-color:#FAFAD2;
+                min-width:300px;
+                max-width:1000px;
+                min-height:600px;
+                max-height:600px;
+                margin-left:auto;
+                margin-right:auto;
+		        padding:25px 25px 150px 25px;
+                overflow:hidden;}
+
+
+
+.content p, table   {
+		        font-family:"PT Sans", sans-serif;
+                font-size:16px;
+                font-weight:700;
+                margin-top:auto;
+                margin-bottom:auto;
+	            margin-left:auto;
+	            margin-right:auto;
+                height:80%;
+                width:40%;
+	    	    overflow:auto;}
+	
+
+
+table   	    {
+		width:100%;}
+
+
+
+.youtube-embed  {width:420px;
+                height:375px;
+                display:block;
+                margin:auto;
+}
+
+
+
+.contactform    {margin-left:auto;
+                margin-right:auto;}
+                
+
+.rates          {width:50%;
+                 margin-left:auto;
+                 margin-right:auto; }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*For Browser Resize (>= 800px)*/
+
+
+
+@media screen and (max-width: 1170px){
+.content	    {
+		        height:80%;
+                width:80%;
+                margin-top:auto;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom:auto;
+}
+		        
+
+
+.content p	    {
+		        font-family:"PT Sans", sans-serif;
+                font-size:14px;
+                font-weight:600;
+                margin-top:auto;
+                margin-bottom:auto;
+		        margin-left:auto;
+		        margin-right:auto;
+		        height:80%;
+                width:85%;
+		        overflow:auto;}
+
+
+
+#subheader-teach   {
+
+                margin-top:90px;
+                margin-left:auto;
+                margin-right:auto;
+                margin-bottom:45px;
+
+}
+
+
+
+.youtube-embed	{
+                margin:auto;
+                height:300px;
+                width:300px;}
+}
